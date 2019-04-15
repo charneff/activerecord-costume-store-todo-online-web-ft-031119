@@ -6,10 +6,10 @@ class CreateCostumeStores
       t.integer :costume_inventory
       t.integer :num_of_employees
       t.boolean :still_in_business
-      t.
-  
-  
-  
+      t.timestamp :opening_time
+      t.timestamp :closing_time
+    end
+  end
 end
 
 # Create your costume_stores migration here
