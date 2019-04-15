@@ -1,4 +1,6 @@
 class CreateCostumeStores
+  def change
+    create_table
   
   
   
