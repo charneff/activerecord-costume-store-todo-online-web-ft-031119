@@ -1,4 +1,6 @@
 class CreateCostumes < ActiveRecord::Migration 
+  def change
+    create
   
 end
 
