@@ -1,4 +1,4 @@
-class CreateCostumeStores
+class CreateCostumeStores < ActiveRecord::Base 
   def change
     create_table :costume_stores do |t|
       t.string :name 
